@@ -62,6 +62,17 @@ dependencies {
     implementation(libs.androidx.navigation.compose.v277)
     implementation(libs.material3)
 
+
+    implementation("androidx.compose.ui:ui:1.4.0") // Cambia a la versión más reciente
+    implementation("androidx.compose.material3:material3:1.0.0") // Cambia a la versión más reciente
+    implementation("androidx.compose.ui:ui-tooling-preview:1.4.0")
+    implementation("androidx.navigation:navigation-compose:2.5.3")
+
+    // Dependencias Retrofit
+    implementation("com.squareup.retrofit2:retrofit:2.9.0")
+    implementation("com.squareup.retrofit2:converter-gson:2.9.0")
+    implementation("com.squareup.okhttp3:logging-interceptor:4.9.0")
+
         // Compose Navigation
         implementation(libs.androidx.navigation.compose.v277)
 
